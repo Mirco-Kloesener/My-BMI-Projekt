@@ -1,0 +1,69 @@
+input:hover, button:hover {
+    background-color: aqua;
+}
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(image/background_1920.jpg);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    text-shadow: 0 0 5px white;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    /* width: 100vw; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+#first {
+    width: 200px;
+    text-align: center;
+
+}
+
+h1 { 
+    font-size: 3em; 
+}
+.text p {
+    font-weight: bold;
+}
+
+#second {
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+}
+
+#third { 
+    text-align: center;
+}
+
+td,th {
+    box-shadow: 5px 5px 5px 5px white inset;
+    font-weight: bold;
+    border: 0.1em solid black;
+    border-collapse: collapse;
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}

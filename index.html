@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mirco-Klösener">
+    <title>Projekt BMI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>BMI-Rechner</h1>
+        <section id="first">
+            
+        <div class="text">
+            <p>Der Body-Mass-Index – auch Körpermasseindex, Körpermassenzahl oder Quetelet-Kaup-Index – ist eine Maßzahl für die Bewertung des Körpergewichts eines Menschen in Relation zu seiner Körpergröße. Er wird mit folgender Formel berechnet: BMI = Körpergewicht(kg) : (Körpergröße(m))²</p>
+        </div>
+        </section>
+
+        <section id="second">
+            <form action="javascript:run()">
+                <label for="gewicht">Körpergewicht in Kilogramm</label>
+                <input type="number" id="gewicht" min="0" step="0.1" required >
+            
+                <label for="groesse">Körpergrösse in Meter</label>
+                <input type="number" id="groesse" min="0" step="0.01" required>
+            
+                <span id="ausgabe"></span>
+            
+                <button type="submit">Berechne</button>
+            </form>
+        </section>
+
+        <section id="third">
+            <h2>BMI-Tabelle nach Alter</h2>
+            <div class="table">
+            <table>
+                <tr>
+                    <th>Alter</th>
+                    <th>BMI Normalbereich</th>
+                </tr>
+        
+                <tr>
+                    <td>19 - 24</td>
+                    <td>19 - 24</td>
+                </tr>
+        
+                <tr>
+                    <td>25 - 34</td>
+                    <td>20 - 25</td>
+                </tr>
+        
+                <tr>
+                    <td>35 - 45</td>
+                    <td>21 - 26</td>
+                </tr>
+        
+                <tr>
+                    <td>45 - 54</td>
+                    <td>22 - 27</td>
+                </tr>
+        
+                <tr>
+                    <td>55 - 64</td>
+                    <td>23 - 28</td>
+                </tr>
+        
+                <tr>
+                    <td>>= 65</td>
+                    <td>24 - 29</td>
+                </tr>
+            </table>
+        </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
