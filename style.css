@@ -14,7 +14,7 @@ body {
     justify-content: center;
 }
 main {
-    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 10px white;
     background-size:cover;
     background-repeat: no-repeat;
     display: flex;
@@ -37,6 +37,7 @@ h1 {
 }
 .text p {
     font-weight: bold;
+    font-size: 20px;
 }
 
 #second {
@@ -48,14 +49,41 @@ form {
     display: flex;
     flex-direction: column;
     text-align: center; 
+    font-size: 22px;
+}
+label {
+    background-color: rgb(255, 255, 255, 0.3);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+button {
+    margin-top: 5px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+    background-color: aquamarine;
+    border-radius: 100px;
+}
+#ausgabe {
+    color: red;
+    background-color: rgb(245, 245, 245, 0.5);
+    border-radius: 5px;
+    margin: 10px;
 }
 
 #third { 
     text-align: center;
 }
-
+h2 {
+    box-shadow: 1px 1px 5px 5px white inset;
+    background-color:  rgb(245, 245, 245, 0.3);
+    border-radius: 5px;
+}
 td,th {
-    box-shadow: 5px 5px 5px 5px white inset;
+    background-color:  rgb(245, 245, 245, 0.6) ;
+    box-shadow: 1px 1px 5px 5px white inset;
     font-weight: bold;
     border: 0.1em solid black;
     border-collapse: collapse;
